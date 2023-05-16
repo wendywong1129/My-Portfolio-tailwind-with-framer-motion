@@ -26,7 +26,7 @@ module.exports = {
         opensans: ["Open Sans", "sans-serif"],
       },
       content: {
-        brush: "url('./assets/brush.jpeg')",
+        brush: "url('assets/brush.jpeg')",
       },
       boxShadow: {
         xl: "0 0 24px #8c12f0",
