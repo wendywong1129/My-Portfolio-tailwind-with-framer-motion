@@ -72,12 +72,12 @@ const Projects = () => {
           />
           {/* ROW 3 */}
           <Project
-            href="https://statuesque-tapioca-a794b6.netlify.app"
+            href="https://openweather-tailwind.netlify.app"
             title="OpenWeather API"
             desc="Weather Forecast Application"
           />
           <Project
-            href="https://expense-tracker-management.herokuapp.com"
+            href="https://lance-lin.netlify.app"
             title="Lance Lin"
             desc="Personal Website"
           />

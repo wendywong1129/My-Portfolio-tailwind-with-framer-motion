@@ -94,8 +94,8 @@ const About = () => {
               <div className="flex justify-center xl:justify-start">
                 <motion.a
                   className="inline-block mt-8 p-4 text-deep-blue font-semibold bg-gradient-rainblue rounded-lg"
-                  href="#"
-                  download=""
+                  href="public/files/CV-Wendy Wong.pdf"
+                  download="CV-Wendy Wong"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}
                 >

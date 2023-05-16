@@ -18,7 +18,7 @@ const Project = ({ href, title, desc }) => {
         </div>
       </a>
       <img
-        src={`../assets/${projectTitle}.jpeg`}
+        src={`assets/${projectTitle}.jpeg`}
         alt={projectTitle}
         className="max-w-[325px] max-h-[325px] sm:max-w-[200px] sm:max-h-[200px] md:max-w-[400px] md:max-h-[400px] aspect-square"
       />
