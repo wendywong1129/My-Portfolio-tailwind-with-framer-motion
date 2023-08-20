@@ -8,7 +8,7 @@ const About = () => {
   const isAboveExtraLargeScreens = useMediaQuery("(min-width: 1440px)");
 
   return (
-    <section id="about" className="py-8 sm:py-20">
+    <section id="about" className="py-8 sm:py-16">
       <div className="flex flex-col items-center">
         <motion.div
           className="w-full mt-20 flex justify-center xl:justify-end"
@@ -33,7 +33,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row xl:justify-between xl:gap-44">
           {/* IMAGE */}
           <div className="flex justify-center">
-            <div className="max-w-[200px] xl:max-w-[300px] xl:ml-32 xl:bg-purple xl:rounded-lg xl:shadow-xl">
+            <div className="max-w-[160px] xl:max-w-[300px] xl:ml-32 xl:bg-purple xl:rounded-lg xl:shadow-xl">
               {isAboveExtraLargeScreens ? (
                 <motion.img
                   className="max-w-[300px] rounded-lg"
@@ -63,10 +63,20 @@ const About = () => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="my-8 text-lg text-center xl:text-start">
+              <p className="my-6 xl:mt-0 text-sm sm:text-lg xl:text-start">
                 I am driven by my curiosity and passion to spend time studying
                 emerging technologies as well as developing awesome
-                applications.
+                applications, offering 2 years of local industry experience.
+              </p>
+              <p className="my-6 text-sm sm:text-lg xl:text-start">
+                My major tech stacks include: Javascript / Typescript, the MERN
+                stack (MongoDB, Express, React.js, Node.js), Next.js, Nest.js,
+                and the following popular libraries and frameworks.
+              </p>
+              <p className="my-6 text-sm sm:text-lg xl:text-start">
+                I am skilled in leveraging Cloud technologies and platforms to
+                create scalable applications, along with a proven track record
+                of developing and managing CI/CD pipelines.
               </p>
             </motion.div>
             <motion.div
@@ -82,7 +92,7 @@ const About = () => {
               <div className="flex items-center xl:mt-8 text-lg">
                 <HiUser />
                 <span className="ml-2">name</span>
-                <span className="ml-4 sm:ml-8 text-red">Qian Wang (Wendy)</span>
+                <span className="ml-4 sm:ml-8 text-red">Wendy Wong</span>
               </div>
               <div className="flex items-center mt-2 text-lg">
                 <MdEmail />

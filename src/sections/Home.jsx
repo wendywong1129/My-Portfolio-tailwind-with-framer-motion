@@ -31,7 +31,7 @@ const Home = ({ setSelectedPage }) => {
       </div>
 
       {/* INTRO */}
-      <div className="z-30 mt-12 md:mt-56 basis-2/5 ">
+      <div className="z-30 mt-24 md:mt-72 basis-2/5 ">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -43,12 +43,12 @@ const Home = ({ setSelectedPage }) => {
           }}
         >
           <p className="z-10 font-playfair text-4xl sm:text-6xl text-center md:text-start">
-            <span className="block mb-10">Qian Wang &nbsp;</span>
-            <span className="z-20 relative text-deep-blue font-semibold before:absolute before:content-brush before:-left-[65px] before:-top-[80px] before:z-[-1] sm:before:-left-[35px] sm:before:-top-[70px] md:before:-left-[30px] md:before:-top-[70px]">
+            <span className="z-20 relative text-deep-blue font-semibold before:absolute before:content-brush before:-left-[75px] before:-top-[90px] before:z-[-1] sm:before:-left-[35px] sm:before:-top-[70px] md:before:-left-[30px] md:before:-top-[70px]">
               Wendy
             </span>
+            <span className="ml-14 md:ml-10">Wong</span>
           </p>
-          <p className="mt-14 mb-6 text-sm sm:text-lg text-center md:text-start">
+          <p className="mt-24 text-sm sm:text-lg text-center md:text-start">
             Coding is like a box of chocolate! You'll never know what you gonna
             get until you print it out.
           </p>
@@ -56,7 +56,7 @@ const Home = ({ setSelectedPage }) => {
 
         {/* SOCIAL */}
         <motion.div
-          className="mt-5 flex justify-center md:justify-start"
+          className="mt-16 flex justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.5 }}

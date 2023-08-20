@@ -45,30 +45,30 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project
-            href="https://www.yabberchat.online"
-            title="Yabber"
-            desc="Online Chat Application"
+            href="https://justcarservice.com.au"
+            title="Just Car Service"
+            desc="Car Service Management"
           />
           <Project
+            href="https://www.yabberchat.online"
+            title="Yabber Chat"
+            desc="Online Chat Application"
+          />
+
+          {/* ROW 2 */}
+          <Project
             href="https://nextjs-mobile-shop.vercel.app"
-            title="Ecommerce"
+            title="Shoppier"
             desc="Mobile Shopping Website"
           />
-          {/* ROW 2 */}
           <Project
             href="https://nextjs-fooddie-ordering.vercel.app"
             title="Pizza Restaurant"
             desc="Food Ordering Website"
           />
           <Project
-            href="https://webrtc-meetings.herokuapp.com"
-            title="WebRTC"
-            desc="Video Conferencing Application"
-          />
-
-          <Project
             href="https://expense-tracker-management.herokuapp.com"
-            title="AOS"
+            title="Cost Saver"
             desc="Expense Tracker Management"
           />
           {/* ROW 3 */}
@@ -78,16 +78,10 @@ const Projects = () => {
             desc="Weather Forecast Application"
           />
           <Project
-            href="https://threejs-3d-model.netlify.app"
-            title="ThreeJS"
-            desc="3D Model with Control Panel"
-          />
-          <Project
             href="https://lance-lin.netlify.app"
             title="Lance Lin"
             desc="Personal Website"
           />
-
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
             max-w-[325px] max-h-[325px] sm:max-w-[200px] sm:max-h-[200px] md:max-w-[400px] md:max-h-[400px] text-2xl font-playfair font-semibold"

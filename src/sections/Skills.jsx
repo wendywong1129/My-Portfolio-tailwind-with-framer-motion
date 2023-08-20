@@ -7,14 +7,15 @@ import {
   SiSass,
   SiReact,
   SiMongodb,
+  SiGraphql,
+  SiNestjs,
   SiRedux,
   SiAxios,
   SiTypescript,
   SiTailwindcss,
-  SiSocketdotio,
-  SiPostman,
-  SiJirasoftware,
-  SiNpm,
+  SiJest,
+  SiDocker,
+  SiTerraform,
 } from "react-icons/si";
 import useMediaQuery from "../hooks/useMediaQuery";
 import LineGradient from "../components/LineGradient";
@@ -93,20 +94,19 @@ const Skills = () => {
                 size={isAboveExtraLargeScreens ? 90 : 60}
                 color="#3076C0"
               />
-              <img
-                className="w-16 xl:w-24"
-                src="assets/nextJS.jpeg"
-                alt="express.js"
-              />
-            </div>
-            <div className="flex gap-24 xl:gap-36">
               <SiMongodb
                 size={isAboveExtraLargeScreens ? 90 : 60}
                 color="#1EAD42"
               />
-              <SiPostman
+            </div>
+            <div className="flex gap-24 xl:gap-36">
+              <SiRedux
                 size={isAboveExtraLargeScreens ? 90 : 60}
-                color="#F56836"
+                color="#764ABC"
+              />
+              <SiAxios
+                size={isAboveExtraLargeScreens ? 90 : 60}
+                color="#6724E9"
               />
             </div>
           </div>
@@ -127,8 +127,8 @@ const Skills = () => {
             <div className="flex gap-24 xl:gap-36">
               <img
                 className="w-16 xl:w-24"
-                src="assets/styled-components.jpeg"
-                alt="express.js"
+                src="assets/nextJS.jpeg"
+                alt="next.js"
               />
               <SiTailwindcss
                 size={isAboveExtraLargeScreens ? 90 : 60}
@@ -136,38 +136,37 @@ const Skills = () => {
               />
             </div>
             <div className="flex gap-24 xl:gap-36">
-              <SiRedux
+              <SiNestjs
                 size={isAboveExtraLargeScreens ? 90 : 60}
-                color="#764ABC"
+                color="#DA214C"
               />
-              <SiAxios
+              <SiGraphql
                 size={isAboveExtraLargeScreens ? 90 : 60}
-                color="#6724E9"
+                color="#E535AB"
               />
             </div>
             <div className="flex gap-24 xl:gap-36">
-              <SiSocketdotio size={isAboveExtraLargeScreens ? 90 : 60} />
+              <SiJest
+                size={isAboveExtraLargeScreens ? 90 : 60}
+                color="#C13B14"
+              />
+              <SiDocker
+                size={isAboveExtraLargeScreens ? 90 : 60}
+                color="#2392E7"
+              />
+            </div>
+            <div className="flex gap-24 xl:gap-36">
+              <img className="w-16 xl:w-24" src="assets/aws.jpeg" alt="aws" />
+              <SiTerraform
+                size={isAboveExtraLargeScreens ? 90 : 60}
+                color="#5C40E3"
+              />
+            </div>
+            <div className="flex gap-24 xl:gap-36">
               <img
                 className="w-16 xl:w-24"
-                src="assets/webRTC logo.jpeg"
-                alt="express.js"
-              />
-            </div>
-            <div className="flex gap-24 xl:gap-36">
-              <SiJirasoftware
-                size={isAboveExtraLargeScreens ? 90 : 60}
-                color="#227FF7"
-              />
-              <SiNpm
-                size={isAboveExtraLargeScreens ? 90 : 60}
-                color="#C71300"
-              />
-            </div>
-            <div className="flex gap-24 xl:gap-36">
-              <img
-                className="w-16 xl:w-24"
-                src="assets/viteJS.jpeg"
-                alt="express.js"
+                src="assets/styled-components.jpeg"
+                alt="styled-components"
               />
               <SiSass
                 size={isAboveExtraLargeScreens ? 90 : 60}

@@ -16,7 +16,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-50 w-full fixed top-0 py-6`}>
       <div className="w-5/6 mx-auto flex justify-between items-center">
-        <h4 className={`${textColor} font-playfair text-3xl font-bold`}>QW</h4>
+        <h4 className={`${textColor} font-playfair text-3xl font-bold`}>WW</h4>
         {isAboveSmallScreens ? (
           // DESKTOP
           <div className="flex justify-between gap-16 font-opensans text-xl font-semibold">
